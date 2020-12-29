@@ -14,7 +14,7 @@ public:
 
     ArcGraph(const IGraph&iGraph);
 
-    virtual ~ArcGraph() {}
+    ~ArcGraph() override {}
 
     // Добавление ребра от from к to.
     void AddEdge(int from, int to) override;

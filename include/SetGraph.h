@@ -17,7 +17,7 @@ public:
 
     SetGraph(const IGraph&iGraph);
 
-    virtual ~SetGraph() {}
+    ~SetGraph() override{}
 
     // Добавление ребра от from к to.
     void AddEdge(int from, int to) override;

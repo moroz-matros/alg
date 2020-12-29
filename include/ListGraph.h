@@ -14,7 +14,7 @@ public:
 
     ListGraph(const IGraph&iGraph);
 
-    virtual ~ListGraph() {}
+    ~ListGraph() override {}
 
     // Добавление ребра от from к to.
     void AddEdge(int from, int to) override;

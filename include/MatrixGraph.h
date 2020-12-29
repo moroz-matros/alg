@@ -14,7 +14,7 @@ public:
 
     MatrixGraph(const IGraph&iGraph);
 
-    virtual ~MatrixGraph() {}
+    ~MatrixGraph() override{}
 
     // Добавление ребра от from к to.
     void AddEdge(int from, int to) override;
